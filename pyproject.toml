@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ml-p1"
+version = "0.1.0"
+description = "This project contains the source code and documentation of Project one for FYS-STK4155"
+authors = ["javidaf"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.0"
+scipy = "^1.14.1"
+matplotlib = "^3.9.2"
+ipython = "^8.26.0"
+scikit-learn = "^1.5.1"
+mglearn = "^0.2.0"
+sympy = "^1.13.2"
+pandas = "^2.2.2"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
