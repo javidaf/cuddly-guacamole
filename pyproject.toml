@@ -16,6 +16,9 @@ mglearn = "^0.2.0"
 sympy = "^1.13.2"
 pandas = "^2.2.2"
 pillow = "^10.4.0"
+notebook = "^7.2.2"
+seaborn = "^0.13.2"
+rasterio = "^1.4.1"
 
 
 [build-system]
