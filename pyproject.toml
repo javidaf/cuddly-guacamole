@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "This project contains the source code and documentation of Project one for FYS-STK4155"
 authors = ["javidaf"]
 readme = "README.md"
+packages = [
+    { include = "ml-p1" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
