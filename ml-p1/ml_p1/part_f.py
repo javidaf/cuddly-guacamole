@@ -1,5 +1,5 @@
 import numpy as np
-from utils import create_design_matrix, generate_ff_data
+from ml_p1.utils import create_design_matrix, generate_ff_data
 from sklearn.preprocessing import (
     StandardScaler,
     MinMaxScaler,
@@ -9,12 +9,12 @@ from sklearn.preprocessing import (
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.model_selection import KFold, cross_val_score
 from sklearn.pipeline import Pipeline
-from functions import mse  # Assuming this is your custom MSE function
+from ml_p1.functions import mse  # Assuming this is your custom MSE function
 import matplotlib.pyplot as plt
-from part_e import bias_variance
-from part_a import ols
-from part_b import ridge
-from part_c import lasso
+from ml_p1.part_e import bias_variance
+from ml_p1.part_a import ols
+from ml_p1.part_b import ridge
+from ml_p1.part_c import lasso
 
 
 def k_fold_cross_validation(

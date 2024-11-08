@@ -1,5 +1,5 @@
 from sklearn.model_selection import train_test_split
-from functions import mse, r2_score, FrankeFunction, Noise
+from ml_p1.functions import mse, r2_score, FrankeFunction, Noise
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import (
     StandardScaler,
@@ -9,7 +9,7 @@ from sklearn.preprocessing import (
 )
 from sklearn.linear_model import Lasso, Ridge
 import numpy as np
-from utils import create_design_matrix, generate_ff_data
+from ml_p1.utils import create_design_matrix, generate_ff_data
 import seaborn as sns
 
 

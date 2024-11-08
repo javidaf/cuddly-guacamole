@@ -1,11 +1,11 @@
 from sklearn.discriminant_analysis import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, PowerTransformer, RobustScaler
-from utils import create_design_matrix
-from functions import mse, r2_score
-from part_a import ols
-from part_b import ridge
-from part_c import lasso
+from ml_p1.utils import create_design_matrix
+from ml_p1.functions import mse, r2_score
+from ml_p1.part_a import ols
+from ml_p1.part_b import ridge
+from ml_p1.part_c import lasso
 import numpy as np
 import matplotlib.pyplot as plt
 import rasterio

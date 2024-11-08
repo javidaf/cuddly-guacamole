@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.preprocessing import PolynomialFeatures
-from functions import FrankeFunction, Noise
+from ml_p1.functions import FrankeFunction, Noise
 from matplotlib import pyplot as plt
 
 

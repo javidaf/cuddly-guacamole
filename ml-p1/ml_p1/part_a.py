@@ -1,5 +1,5 @@
 import numpy as np
-from utils import create_design_matrix
+from ml_p1.utils import create_design_matrix
 from sklearn.preprocessing import (
     MinMaxScaler,
     StandardScaler,
@@ -7,9 +7,9 @@ from sklearn.preprocessing import (
     PowerTransformer,
 )
 from sklearn.model_selection import train_test_split
-from functions import mse, r2_score, FrankeFunction, Noise
+from ml_p1.functions import mse, r2_score
 import matplotlib.pyplot as plt
-from utils import generate_ff_data
+from ml_p1.utils import generate_ff_data
 from sklearn.linear_model import LinearRegression
 
 

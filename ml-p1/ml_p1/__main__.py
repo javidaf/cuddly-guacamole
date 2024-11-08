@@ -1,9 +1,8 @@
 import argparse
 
-from part_f import *
-from part_g import read_and_preprocess_terrain
-from plot import *
-
+from ml_p1.part_f import *
+from ml_p1.part_g import read_and_preprocess_terrain
+from ml_p1.plot import *
 
 def main(path, np, degree, scaling, lambda_ridge, alpha_lasso):
     tif_file = path

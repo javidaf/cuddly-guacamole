@@ -1,5 +1,5 @@
 import numpy as np
-from utils import create_design_matrix, generate_ff_data
+from ml_p1.utils import create_design_matrix, generate_ff_data
 from sklearn.preprocessing import (
     MinMaxScaler,
     StandardScaler,
@@ -8,9 +8,8 @@ from sklearn.preprocessing import (
 )
 from sklearn.utils import resample
 from sklearn.model_selection import train_test_split
-from functions import mse, r2_score, FrankeFunction, Noise
 import matplotlib.pyplot as plt
-from part_a import ols
+from ml_p1.part_a import ols
 
 
 def bias_variance(
