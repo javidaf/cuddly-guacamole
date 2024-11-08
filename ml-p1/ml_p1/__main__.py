@@ -1,7 +1,8 @@
+import argparse
+
 from part_f import *
 from part_g import read_and_preprocess_terrain
 from plot import *
-import argparse
 
 
 def main(path, np, degree, scaling, lambda_ridge, alpha_lasso):
